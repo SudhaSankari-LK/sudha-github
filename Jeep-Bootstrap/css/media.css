@@ -1,0 +1,344 @@
+@media(min-width:320px){
+      
+}
+
+@media (min-width:576px){
+    form{
+        width: 75%;
+    }
+   
+    .select-form{
+        padding: 2rem 3rem;
+    }
+   
+    .contact-form{
+        padding: 2rem 3rem;
+    }
+
+}
+
+@media (min-width:768px){
+    .button-sample{
+        font-size: 1rem;
+        padding: 0.5rem 2.5rem;
+    }
+    
+    /* banner start */
+    .banner-hd {
+        font-size: 4.6rem;
+    }
+    .banner-cnt{
+        font-size: 1.25rem;
+    }   
+    /* banner end */
+
+    /* vehicles start */
+    .vehicles-bottom{
+        margin-bottom: 4rem;
+    }
+    /* vehicles end */
+}
+
+@media (min-width:992px){
+    
+   
+    /* header start */
+     header .nav-link{
+        font-size: 1.2rem;
+    }
+
+    .hd-button-sample{
+        font-size: 1.075rem;
+        padding: 0.5rem 2.5rem;    
+    }    
+    /* header end */
+
+    /* banner start */
+    .banner{
+        padding: 6.25rem 0;
+    }
+    /* banner end */
+
+    /* about start */
+    .about-bottom{
+        padding-right: 1.5rem;
+    }
+    .icon-hd{
+        font-size: 1.3rem;
+    }
+    /* about end */
+
+    /* vehicles start */
+    .vehicles{
+        padding: 5.938rem 0;
+    }
+
+    .vehicles-top{
+        margin-bottom: 4.313rem;
+    }
+
+    .vehicles-hd{
+        font-size: 3.75rem;
+    }
+
+    .jeep{
+        margin-bottom: 5rem;
+    }
+
+    .inner-hd{
+        font-size: 1.8rem;
+    }
+
+    .inner-cnt{
+        font-size: 1.313rem;
+        margin-bottom: 0.625rem;
+    }
+
+    .price{
+        margin-bottom: 1.5rem;
+    }
+
+    .price img{
+        width: 70%;
+    }
+
+    .inner-price{
+        font-size: 1.5rem;
+    }
+    /* vehicles end */
+
+    /* gallery start */
+    .gallery{
+        padding: 5.438rem 0 4.438rem;
+    }
+
+    .gallery-hd{
+        font-size: 3.75rem;
+        margin-bottom: 1.125rem;
+    }
+
+    .gallery .nav-link{
+        font-size: 1.2rem;
+        margin-bottom: 0.625rem;
+    }
+
+    .gallery-inner{
+        padding: 0 2.5rem;
+    }
+
+    .gallery-inner-hd{
+        font-size: 1.625rem;
+    }
+    /* gallery end */
+
+    /* schedule start */
+    .schedule{
+        padding: 6.188rem 0;
+    }   
+
+    .schedule-hd{
+        font-size: 3.75rem;
+        line-height: 2.75rem;
+        margin-bottom: 2.688rem;
+    }
+
+    .inner-cnt-one{
+        font-size: 1.375rem;
+    }
+
+    form{
+        width: 76%;
+        border: 1px solid var(--bs-gray);
+    }
+
+    .select-form{
+        width: 40%;
+        padding: 2rem;
+    }
+
+    .contact-form{
+        width: 60%;
+        padding: 2rem;
+    }
+    
+    .select-hd{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .schedule .form-check{
+        margin-bottom: 1.5rem;
+    }
+
+    form .form-check-label{
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }
+
+    .contact-hd{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .contact-inner{
+        margin-bottom: 2.063rem;
+    }
+
+    .contact-form .form-check-label{
+        font-size: 1rem;
+    }
+
+    .schedule .contact-form .form-check .form-check-input{
+        margin-right: 1rem;
+    }    
+    /* schedule end */
+
+    /* footer start */
+    .footer-block{
+        padding: 5rem 0;
+    }
+
+    .footer-inner{
+        margin-bottom: 0;
+    }
+
+    .footer-inner .navbar-brand{
+        padding: 0;
+        margin-bottom: 1.281rem;
+    }
+
+    .foot-cnt{
+        font-size: 0.95rem;
+    }
+
+    .footer-inner-hd{
+        margin-bottom: 2.438rem;
+    }
+
+
+    address{
+        margin-bottom: 2.063rem;
+    }
+    /* footer end */
+}
+
+@media (min-width:1200px){
+    .button-sample{
+        font-size: 1.375rem;
+        padding: 0.75rem 2.375rem;
+    }
+
+    header .nav-link{
+        font-size: 1.5rem;
+        color: var(--bs-white);
+    }
+
+    .hd-button-sample{
+        font-size: 1.375rem;
+        padding: 0.75rem 2.375rem;
+    }
+
+    /* banner start */
+    .banner-hd{
+        font-size: 6.25rem;
+    }
+    .banner-cnt{
+        font-size: 1.625rem;
+        margin-bottom: 4.063rem;
+    }
+    /* banner end */
+
+    /* about start */
+    .about{
+        padding: 5rem 0;
+    }
+    
+    .about-hd{
+        font-size: 3.625rem;
+    }
+    
+    .yellow-style{
+        font-size: 1.375rem;
+        margin-bottom: 1.25rem;
+    }
+    
+    .about-cnt{
+        font-size: 1.375rem;
+        margin-bottom: 3.75rem;
+        width: 95%;
+    }
+    
+    .about-bottom{
+        padding-right: 2.5rem;
+    }
+
+    .about-icon{
+        margin-bottom: 1.25rem;
+    }
+
+    .icon-hd{
+        font-size: 1.5rem;
+    }
+
+    .icon-cnt{
+        font-size: 1.375rem;
+    }
+    /* about end */
+
+    /* vehicles start */
+    .inner-hd{
+        font-size: 2.188rem;
+    }
+
+    .inner-price{
+        font-size: 2.375rem;
+    }
+    /* vehicles end */
+
+    /* gallery start */
+    .gallery .nav-link{
+        font-size: 1.5rem;
+    }
+
+    .gallery-inner-hd{
+        font-size: 2.625rem;
+    }
+    /* gallery end */
+
+    /* schedule start */
+    .select-form{
+        padding: 3.438rem 5.938rem;
+    }
+
+    .contact-form{
+        width: 60%;
+        padding: 3.438rem 5.938rem;
+    }
+
+    .schedule .form-check{
+        margin-bottom: 2rem;
+    }
+
+    form .form-check-label{
+        font-size: 1.495rem;
+    }
+    /* schedule end */
+
+    /* footer start */
+    .footer-block{
+        padding: 5.7rem 0 6.125rem;
+    }
+
+
+    .foot-cnt{
+        font-size: 1.125rem;
+        margin-bottom: 1.25rem;
+    }
+    /* footer end */
+}
+
+@media (min-width:1400px){
+    
+}

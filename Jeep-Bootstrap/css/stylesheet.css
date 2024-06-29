@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+a:hover{
+    color: var(--bs-yellow);
+}
+
+.button-sample{
+    font-size: 0.875rem;
+    padding: 0.35rem 2rem;
+    border-radius: 3rem;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--bs-white);
+}
+
+/* header start */
+header{
+    background: url("../images/header-bg.jpg") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+header .container-fluid{
+    padding: 0;
+}
+
+header .navbar{
+    padding: 1.3125rem 0 0;
+}
+
+header .navbar-brand{
+    flex-grow: 1;
+}
+
+header .nav-link{
+    color: var(--bs-white);
+}
+
+header .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.625rem;
+    padding-left: 0.625rem;
+}
+
+header .nav-link.active, .nav-link:focus, .nav-link:hover{
+    color: var(--bs-yellow);
+}
+
+.hd-button-sample{
+    font-size: 0.875rem;
+    padding: 0.35rem 2rem;
+    border: 0.125rem solid var(--bs-yellow);
+    border-radius: 3rem;
+}
+/* header end */
+
+/* banner start */
+.banner {
+    padding: 3.125rem 0;
+}
+
+.banner .slider-wrapper{
+    background: transparent;
+    box-shadow: none;
+}
+
+.banner-hd{
+    font-size: 3rem;
+    font-weight: 700;
+}  
+
+.banner-cnt{
+    font-size: 1rem;
+    color: #d6c4c4;
+    margin-bottom: 2.3rem;
+
+}
+
+/* banner end */
+
+/* about start */
+.about{
+    padding: 3.125rem 0;
+    color: var(--bs-dark);
+}
+
+.about-block{
+    margin-bottom: 3.125rem;
+}
+
+.yellow-txt{
+    color: var(--bs-yellow);
+}
+
+.about-cnt{
+    margin-bottom: 2rem;
+}
+
+.abt-icon{
+    padding: 1.5rem 1.3rem;
+    background-color: var(--bs-white);
+    border-radius: 100%;
+    box-shadow: 0 0 5px 0 #d6d5d5;
+}
+
+.about-bottom-block{
+    margin-top: 3.125rem;
+}
+
+.about-bottom{
+    padding-right: 1.5rem;
+}
+/* about end */
+
+/* vehicles start */
+.vehicles{
+    padding: 3.125rem 0;
+}
+
+.vehicles-top{
+    margin-bottom: 3rem;
+}
+
+.vehicles-bottom{
+    margin-bottom: 3rem;
+}
+
+.inner-hd{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.inner-cnt-one{
+    font-size: 1rem;
+    color: var(--bs-gray);
+}
+
+.price{
+    color: var(--bs-yellow);
+    margin-bottom: 1rem;
+}
+
+.price img{
+    vertical-align: 0%;
+}
+
+.inner-price{
+    font-size: 2rem;
+}
+/* vehicles end */
+
+
+/* gallery start */
+.gallery{
+    padding: 3.125rem 0;
+    color: var(--bs-dark);
+}
+
+.gallery .nav-link{
+    color: #91908c;
+}
+
+.gallery .nav-link.active, .gallery .nav-link:focus, .gallery .nav-link:hover {
+    color: var(--bs-yellow);
+}
+
+.gallery ul{
+    padding-inline-start: 0px;
+}
+
+.gallery ul li{
+    list-style: none;
+}
+
+.gallery-jeep{
+    width: 100%;
+}
+
+.gallery-inner-hd{
+    color: var(--bs-white);
+}
+/* gallery end */
+
+
+/* schedule start */
+.schedule{
+    background: url("../images/footer-bg.jpg") no-repeat 0 0;
+    background-size: 100% 100%;
+    padding: 3.125rem 0;
+}
+
+.schedule-top{
+    margin-bottom: 2rem;
+}
+
+.schedule-hd{
+    margin-bottom: 1rem;
+}
+
+
+
+form{
+    background-color: var(--bs-dark);
+}
+
+.select-form{
+    padding: 2rem 1rem;
+    border: 1px solid var(--bs-gray);
+}
+
+.contact-form{
+    padding: 2rem 1rem;
+    border: 1px solid var(--bs-gray);
+}
+
+/* form .form-check{
+    margin-bottom: 1rem;
+} */
+
+.select-hd{
+    color: var(--bs-yellow);
+    margin-bottom: 1rem;
+}
+
+.contact-hd{
+    color: var(--bs-yellow);
+    margin-bottom: 1rem;
+}
+
+.schedule .form-check{
+    margin-bottom: 1rem;
+}
+
+form .form-check-input:checked{
+    background-color: var(--bs-yellow);
+    border-color: var(--bs-yellow);
+}
+
+form .form-check-input[type=checkbox]{
+    border-radius: 0;
+}
+
+form .form-check-input{
+    background-color: transparent;
+    border-color: var(--bs-gray);
+}
+
+form .form-check-label{
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.contact-inner{
+    margin-bottom: 1rem;
+}
+
+form .form-control, form .form-control:focus{
+    background-color: #2c2c36;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+.contact-form .form-check{
+    margin-bottom: 3.125rem;
+}
+
+/* schedule end */
+
+/* footer start */
+footer{
+    background: url("../images/footer-bg.jpg") no-repeat 0 0;
+    background-size: 100% 100%;
+    color: var(--bs-gray);
+}
+
+.footer-block{
+    padding: 3.125rem 0 0;
+}
+
+.footer-inner{
+    margin-bottom: 3.125rem;
+}
+
+.foot-cnt{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-inner-hd{
+    font-size: 1.25rem;
+    color: var(--bs-white);
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.phone{
+    color: var(--bs-white);
+    text-decoration: none;
+}
+
+.vehicles-list{
+    list-style: none;
+}
+
+.vehicle-name{
+    color: var(--bs-gray);
+    text-decoration: none;
+}
+
+.media-list{
+    margin-right: 1rem;
+}
+
+address ul {
+    padding-inline-start: 0px;
+}
+
+address ul li{
+    list-style: none;
+}
+
+.foot-icon{
+    margin-right: 1rem;
+}
+/* footer end */
+
+.copy{
+    padding: 1.188rem 0;
+    color: var(--bs-gray);
+    border-top: 1px solid #585555;
+}
