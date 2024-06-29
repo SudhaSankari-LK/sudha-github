@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeanSlider</title>
+    <link rel="stylesheet" href="css/lean-slider.css" type="text/css" />
+    <link rel="stylesheet" href="css/sample-styles.css" type="text/css" />
+    <link href="css/stylesheet.css" rel="stylesheet">
+</head>
+<body>
+    <section class="leanslider">
+        <div class="slider-wrapper">
+            <div id="slider">
+                <div class="slide1">
+                    <img src="images/1.jpg" alt="" />
+                </div>
+                <div class="slide2">
+                    <img src="images/2.jpg" alt="" />
+                </div>
+                <div class="slide3">
+                    <img src="images/3.jpg" alt="" />
+                </div>
+                <div class="slide4">
+                    <img src="images/4.jpg" alt="" />
+                </div>
+            </div>
+            <div id="slider-direction-nav"></div>
+            <div id="slider-control-nav"></div>
+        </div>
+
+        <script src="js/jquery.js"></script>
+        <script src="js/lean-slider.js"></script>
+        
+        <script type="text/javascript">
+        $(document).ready(function() {
+            var slider = $('#slider').leanSlider({
+                directionNav: '#slider-direction-nav',
+                controlNav: '#slider-control-nav'
+            });
+        });
+        </script>
+    </section>
+</body>
+</html>
