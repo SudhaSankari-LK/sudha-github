@@ -1,0 +1,480 @@
+@media (min-width:992px) and (max-width:1199px){
+    
+    .container{
+        padding: 0 40px;
+    }
+    .facility-cnt{
+        width: 100%;
+    }
+    .festival-hd{
+        width: 60%;
+    }
+    .finish-inner-block{
+        width: 100%;
+    }
+    /* .join-bg{
+        height: 380px;
+    }
+    .join-inner {
+        padding: 100px 30px;
+    } */
+
+    .jjoin-bg{
+        height: 383px;
+    }
+    .jjoin-inner {
+        padding: 90px 40px;
+    }
+    .jjoin-man {
+        width: 100%;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .container{
+        padding: 0 30px;
+    }
+
+    .sec-hd{
+        font-size: 30px;
+    }
+
+    .cnt {
+        font-size: 12px;
+        color: var(--h-white);
+        line-height: 22px;
+    }
+
+    .inner-hd{
+        font-size: 20px;
+        margin: 0 0 20px;
+    }
+    
+    /* header start */
+    header{
+        padding: 10px 0;
+    }    
+    .menu-list{
+        margin: 0;
+    }
+    /* header end */
+
+    /* banner start */
+    .banner-bg{
+        padding: 40px 0;
+    }
+    .banner-hd {
+        font-size: 35px;
+        line-height: 45px;
+        margin: 0 0 25px;
+    }
+    .banner-cnt {
+        margin: 0 0 35px;
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 8px 20px;
+    }
+    
+    /* banner end */
+
+    /* sponsor start */
+    .sponsor{
+        padding:40px 0;
+    }
+    .sponsor-hd{
+        margin: 0 0 25px;
+    }
+    .sponsor-block{
+        padding: 15px 0 0;
+    }
+    .sponsor-bar{
+        flex-wrap: wrap;
+    }    
+    .sponsor-list{
+        flex-basis: 50%;
+        margin: 0 0 30px;
+    }
+    /* sponsor end */
+
+    /* facility start */
+    .facility{
+        padding: 50px 0 10px;
+    }
+    .facility-top{
+        width: 100%;
+        margin: 0 0 25px;
+    }
+    .facility-hd{
+        margin: 0 0 15px;
+    }
+    .facility-bottom{
+        flex-wrap: wrap;
+    }
+    .facility-inner{
+        flex-basis: 50%;
+        margin: 0 0 40px;
+    }
+    .facility-cnt{
+        width: 100%;
+        margin: 0 0 15px;
+    }
+    /* faciltiy end */
+
+    /* festival start */
+    .festival{
+        padding: 40px 0;
+    }
+    .festival-top {
+        margin: 0 auto 25px;
+    }
+    .festival-hd{
+        width: 60%;
+        margin: 0 auto 15px;
+    }
+    .festival-cnt{
+        padding: 0 70px;
+    }
+    .festival-bottom{
+        padding: 60px 0;
+    }
+    .play{
+        width: 25%;
+    }
+    /* festival end */
+
+    /* finish start */
+    .finish{
+        padding: 40px 0;
+    }
+    .finish-inner-block {
+        padding: 0 45px;
+    }
+    /* finish end */
+
+    /* events start */
+    .events {
+        padding: 40px 0;
+    }
+    /* events end */
+
+    /* join start */
+    .jjoin-bg{
+        width: 90%;
+        height: 320px;
+    }
+    .jjoin-inner {
+        padding: 70px 30px;
+    }
+    .jjoin-man{
+        width: 95%;
+    }
+
+/*     
+    .join-bg{
+        width: 90%;
+        height: 305px;
+    }
+    .join-block{
+        flex-direction: column;
+    }
+    .join-inner {
+        padding: 75px 30px;
+    }
+    .join-gallery {
+        bottom: 0px;
+        left: 55%;
+    }
+    .join-man {
+        width: 85%;
+    } */
+    /* join end */
+
+    /* footer start */
+    .fooer-brdr{
+        padding: 40px 0;
+    }
+    .foot-logo {
+        margin: 0 0 15px;
+    }
+    .speed-foot-logo{
+        width: 100%;
+    }    
+    .footer-cnt{
+        color: var(--grey);
+        margin: 0 0 15px;
+    }
+    .foot-hd {
+        font-size: 13px;
+        margin: 5px 0 20px;
+    }
+    .footer-item{
+        font-size: 12px;
+    }
+    .footer-list {
+        margin: 0 0 10px;
+    }
+    .mail{
+        padding: 8px 10px;
+    }
+    /* footer end */
+
+
+    
+}
+
+@media (min-width:320px) and (max-width:767px){
+    .container{
+        padding: 0 15px;
+    }
+    
+    .sec-hd{
+        font-size: 20px;
+    }
+    
+    .cnt {
+        font-size: 12px;
+        color: var(--h-white);
+        line-height: 22px;
+    }
+
+    .inner-hd{
+        font-size: 18px;
+        margin: 0 0 15px;
+    }
+    
+    /* header start */
+    .header-block{
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .menu-block{
+        flex-direction: column;
+        align-items: end;
+    }
+    /* header end */
+
+    /* banner start */
+    .banner-bg{
+        padding: 30px 0;
+    }
+    .banner-block{
+        width: 100%;
+    }
+    .banner-hd {
+        font-size: 25px;
+        line-height: 35px;
+        margin: 0 0 35px;
+    }
+    .banner-cnt {
+        margin: 0 0 40px;
+    }
+    .btn{
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+    /* banner end */
+
+    /* sponsor start */
+    .sponsor{
+        padding: 30px 0;
+    }
+    .sponsor-hd{
+        margin: 0 0 35px;
+    }
+    .sponsor-block{
+        padding: 20px 0;
+    }
+    .sponsor-bar{
+        flex-direction: column;
+    }
+    .sponsor-list{
+        margin: 0 0 20px;
+    }
+    .sponsor-icon{
+        width: 50%;
+    }
+    /* sponsor end */
+
+    /* facility start */
+    .facility{
+        padding: 30px 0 0; 
+    }
+    .facility-top{
+        width: 100%;
+        margin: 0 0 50px;
+    }
+    .facility-hd{
+        margin: 0 0 35px;
+    }
+    .facility-bottom{
+        flex-direction: column;
+    }
+    .facility-inner{
+        margin: 0 0 50px;
+    }
+    .facility-cnt {
+        width: 100%;
+        margin: 0 0 15px;
+    }
+    /* facility end */
+
+    /* festival start */
+    .festival{
+        padding: 30px 0;
+    }
+    .festival-top{
+        margin: 0 0 50px;
+    }
+    .festival-hd {
+        width: 100%;
+        margin: 0 0 25px;
+    }
+    .festival-cnt{
+        width: 100%;
+        padding: 0;
+    }
+    .festival-bottom {
+        padding: 50px 0;
+    }
+    .play{
+        width: 15%;
+    }
+    /* festival end */
+
+    /* finish start */
+    .finish{
+        padding: 30px 0;
+    }
+    .finish-block{
+        flex-direction: column;
+    }
+    .finish-gallery{
+        display: flex;
+        justify-content: center;
+        margin: 0 0 30px;
+    }
+    .run-man{
+        width: 80%;
+    }
+    .finish-inner-block {
+        padding: 0;
+    }
+    .finish-hd{
+        margin: 0 0 20px;
+    }
+    .finish-cnt{
+        margin: 0 0 20px;
+    }
+    /* finish end */
+
+    /* events start */
+    .events{
+        padding: 30px 0;
+    }
+    .events-block{
+        flex-direction: column;
+    }
+    .events-inner{
+        margin: 0 0 50px;
+    }
+    .events-hd {
+        width: 70%;
+        margin: 0 0 20px;
+    }
+    .events-cnt {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+    .time-hd{
+        font-size: 16px;
+    }
+    .time{
+        font-size: 14px;
+    }
+    /* events end */
+
+    /* join start */
+    .jjoin-bg{
+        width: 100%;
+        height: 373px;
+    }
+    .jjoin-inner {
+        padding: 40px 30px;
+    }
+    .jjoin-gallery {
+        width: 60%;
+        left: 50%;
+        transform: translate(-50%, 0px);
+    }
+
+/*     
+    .join-bg{
+        width: 100%;
+        height: 345px;
+    }
+
+    .join-block{
+        flex-direction: column;
+    }
+
+    .join-inner{
+        padding: 20px;
+    }
+
+    .join-hd{
+        width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .join-gallery {
+        left: 50%;
+        top: 151px;
+        right: 0;
+        transform: translate(-50%,0);
+    }
+    .join-man{
+        width: 100%;
+    } */
+    /* join end */
+
+    /* footer start */
+    .footer-brdr {
+        padding: 60px 0 0px;
+    }
+    .footer-block{
+        flex-direction: column;
+    }
+    .footer-inner{
+        margin: 0 0 30px;
+    }
+    .foot-logo{
+        margin: 0 0 10px;
+    }
+    .footer-cnt{
+        margin: 0 0 15px;
+    }
+    .foot-hd{
+        margin: 0 0 20px;
+    }
+    .footer-list {
+        margin: 0 0 8px;
+    }
+    .mail {
+        width: 50%;
+        padding: 7px 15px;
+    }
+    .copy{
+        padding: 7px 0;
+    }
+    .copy-inner{
+        font-size: 10px;
+    }
+    /* footer end */
+
+    /* jjoin */
+    
+    /* jjoin */
+}
