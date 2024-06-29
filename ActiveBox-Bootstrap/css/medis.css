@@ -1,0 +1,184 @@
+@media (min-width:768px) and (max-width:991px){
+        /* banner start */
+    .banner-bg{
+        padding: 100px 0;
+    }
+    .banner-inner{
+        padding: 0 50px;
+    }
+    .banner-hd{
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .banner-cnt{
+        font-size: 18px;
+        line-height: 28px;
+        margin: 0 0 35px;
+    }
+    /* banner end */
+
+    /* settings start */
+    .settings{
+        padding: 65px 0;
+    }
+
+    .settings-inner{
+        padding: 25px 0;
+    }
+    /* settigns end */
+
+    /* gallery start */
+    .images-list{
+        width: 50%;
+    }
+    /* gallery end */
+    /* founders start */
+    .founders{
+        padding: 80px 0 0px;
+    }
+    .founders-inner{
+        margin: 0 0 50px;
+    }
+    /* founders end */
+
+    .ready{
+        padding: 50px 0 80px;
+    }
+    /* details start */
+    .details{
+        padding: 50px 0;
+    }
+
+    .details-inner{
+        padding: 0 60px;
+        margin: 30px 0;
+    }
+
+    .details-cnt{
+        padding: 0 0 0 20px;
+    }
+    /* details end */   
+
+    .gra-inr{
+        margin: 0 0 30px;
+    }
+    .branding-inner{
+        width: 50%;
+        margin: 0 0 30px;
+    }
+
+    .loc-cnt{
+        padding: 0;
+    }
+}
+
+@media (min-width:320px) and (max-width:767px){
+    /* banner start */
+    .banner-bg{
+        padding: 80px 0;
+    }
+    .banner-inner{
+        padding: 0;
+    }
+
+    .banner-hd{
+        font-size: 23px;
+        line-height: 33px;
+    }
+
+    .banner-cnt{
+        font-size: 13px;
+        line-height: 23px;
+        margin: 0 0 35px;
+    }
+
+    .banner-btn{
+        padding: 7px 30px;
+    }
+    /* banner end*/
+
+    /* settings start*/
+    .settings{
+        padding: 45px 0;
+    }
+    .settings-inner {
+        padding: 20px 0px;
+      }
+    /* settings end */
+
+    /* gallery start */
+    .images-list{
+        width: 100%;
+    }
+    /* gallery end */
+
+    /* founders start */
+    .founders{
+        padding: 80px 0 0px;
+    }
+
+    .founders-inner{
+        margin: 0 15px 50px;
+    }
+    /* founders end */
+
+    /* ready start */
+    .ready{
+        padding: 50px 0 80px;
+    }
+
+    .ready-hd{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .ready-cnt{
+        font-size: 12px;
+    }
+
+    .ready-btn{
+        padding: 8px 40px;
+    }
+    /* ready end */
+
+    /* details start */
+    .details{
+        padding: 50px 0;
+    }
+
+    .details-inner{
+        padding: 0 35px;
+        margin: 30px 0;
+    }
+
+    .details-cnt{
+        padding: 0 0 0 20px;
+    }
+    /* details end */
+
+    /* graphic start */
+    .graphic-yellowbar {
+        padding: 80px 0 65px;
+      }
+
+    .graphic-inner{
+        margin: 0 0 50px;
+    }
+    .shadow{
+        padding: 5px;
+    }
+    /* graphic end */
+
+    /* branding start */
+    .branding-inner{
+        width: 100%;
+    }
+
+    .location{
+        padding: 80px 0 30px;
+    }
+    .loc-inner{
+        margin: 0 0 50px;
+    }
+}
